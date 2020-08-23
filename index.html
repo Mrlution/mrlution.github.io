@@ -8,7 +8,7 @@
     <script>
 
 
-        getQueryString(name) {
+        function getQueryString(name) {
             let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
             if (window.location.hash.indexOf("?") < 0) {
                 return null;
@@ -28,7 +28,7 @@
                 return str;
             };
         function a() {
-            if (GetQueryString("path")==null){
+            if (getQueryString("path")==null){
                 url="https://api.github.com/repos/mrlution/mrlution.github.io/contents/";
             }else{
                 url=path;
