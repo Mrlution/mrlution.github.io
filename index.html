@@ -37,7 +37,7 @@
                 for (var index in data) {
                     if (data[index].path.indexOf('/')>0){
                         var pos = data[index].path.lastIndexOf('/');
-                        var current = data[index].path.substr(0,pos);
+                        var current = '/'+data[index].path.substr(0,pos);
                     }
                     else{
                         var current="/"
