@@ -50,14 +50,14 @@
 
                     if (data[index].type == "file") {
                         //alert(data[index].name+"是文件");
-                        var txt = "<h3><i class='fa fa-file' aria-hidden='true'></i><a href='{0}'>{1}</a></h3>";
+                        var txt = "<h3><i class='fa fa-file'  aria-hidden='true'></i><a href='{0}'>{1}</a></h3>";
                         txt = String.format(txt, data[index].path, data[index].name)
                         $("#file").append(txt)
 
                     }
                     else {
                         //alert(data[index].name+"是目录");
-                        var txt = "<h3><i class='fa fa-folder-open' aria-hidden='true'></i><a href='?path={0}'>{1}</a></h3>";
+                        var txt = "<h3><i class='fa fa-folder-open'  aria-hidden='true'></i><a href='?path={0}'>{1}</a></h3>";
                         txt = String.format(txt, data[index].url, data[index].name)
                         $("#dir").append(txt)
 
