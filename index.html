@@ -9,43 +9,43 @@
 
 
         function getQueryString(name) {
-            let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
-            if (window.location.hash.indexOf("?") < 0) {
-                return null;
-            }
-            let r = window.location.hash.split("?")[1].match(reg);
-            if (r != null) return decodeURIComponent(r[2]);
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return unescape(r[2]);
             return null;
         }
+
+
         String.format = function () {
-                if (arguments.length == 0)
-                    return null;
-                var str = arguments[0];
-                for (var i = 1; i < arguments.length; i++) {
-                    var re = new RegExp('\\{' + (i - 1) + '\\}', 'gm');
-                    str = str.replace(re, arguments[i]);
-                }
-                return str;
-            };
-        function a() {
-            if (getQueryString("path")==null){
-                url="https://api.github.com/repos/mrlution/mrlution.github.io/contents/";
-            }else{
-                url=path;
+            if (arguments.length == 0)
+                return null;
+            var str = arguments[0];
+            for (var i = 1; i < arguments.length; i++) {
+                var re = new RegExp('\\{' + (i - 1) + '\\}', 'gm');
+                str = str.replace(re, arguments[i]);
             }
+            return str;
+        };
+        function a() {
+            if (getQueryString("path") == null) {
+                url = "https://api.github.com/repos/mrlution/mrlution.github.io/contents/";
+            } else {
+                url = getQueryString("path");
+            }
+            alert(url);
             $.get(url, function (data, status) {
-                for(var index in data){
-                    if (data[index].type=="file"){
+                for (var index in data) {
+                    if (data[index].type == "file") {
                         //alert(data[index].name+"是文件");
-                        var txt="<h3><a href='{0}'>{1}</a></h3>";
-                        txt=String.format(txt,data[index].path,data[index].name)
+                        var txt = "<h3><a href='{0}'>{1}</a></h3>";
+                        txt = String.format(txt, data[index].path, data[index].name)
                         $("#file").append(txt)
 
                     }
-                    else{
+                    else {
                         //alert(data[index].name+"是目录");
-                        var txt="<h3><a href='/#path={0}'>{1}</a></h3>";
-                        txt=String.format(txt,data[index].url,data[index].name)
+                        var txt = "<h3><a href='?path={0}'>{1}</a></h3>";
+                        txt = String.format(txt, data[index].url, data[index].name)
                         $("#dir").append(txt)
 
                     }
@@ -56,7 +56,7 @@
     </script>
     <h1>目录</h1>
     <div id="dir"></div>
-    <h1>文件</h1>  
+    <h1>文件</h1>
     <div id="file"></div>
 </body>
 
