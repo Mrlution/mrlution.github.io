@@ -32,7 +32,7 @@
             } else {
                 url = getQueryString("path");
             }
-            alert(url);
+            //alert(url);
             $.get(url, function (data, status) {
                 for (var index in data) {
                     if (data[index].type == "file") {
