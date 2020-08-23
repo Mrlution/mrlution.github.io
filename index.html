@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <script>
+
+
+        function GetQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return decodeURI(r[2]);
+            return null;
+        }
+        String.format = function () {
+                if (arguments.length == 0)
+                    return null;
+                var str = arguments[0];
+                for (var i = 1; i < arguments.length; i++) {
+                    var re = new RegExp('\\{' + (i - 1) + '\\}', 'gm');
+                    str = str.replace(re, arguments[i]);
+                }
+                return str;
+            };
+        function a() {
+            if (GetQueryString("path")==null){
+                url="https://api.github.com/repos/mrlution/mrlution.github.io/contents/";
+            }else{
+                url=path;
+            }
+            $.get(url, function (data, status) {
+                for(var index in data){
+                    if (data[index].type=="file"){
+                        //alert(data[index].name+"是文件");
+                        var txt="<h3><a href='{0}'>{1}</a></h3>";
+                        txt=String.format(txt,data[index].path,data[index].name)
+                        $("#file").append(txt)
+
+                    }
+                    else{
+                        //alert(data[index].name+"是目录");
+                        var txt="<h3><a href='/path={0}'>{1}</a></h3>";
+                        txt=String.format(txt,data[index].url,data[index].name)
+                        $("#dir").append(txt)
+
+                    }
+                }
+            });
+        }
+        a()
+    </script>
+    <h1>目录</h1>
+    <div id="dir"></div>
+    <h1>文件</h1>  
+    <div id="file"></div>
+</body>
+
+</html>
