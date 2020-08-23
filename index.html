@@ -35,6 +35,18 @@
             //alert(url);
             $.get(url, function (data, status) {
                 for (var index in data) {
+                    if (data[index].path.indexOf('/')>0){
+                        var pos = data[index].path.lastIndexOf('/');
+                        var current = data[index].path.substr(0,pos);
+                    }
+                    else{
+                        var current="/"
+                    }
+                    $("#current").append(current)
+
+
+
+
                     if (data[index].type == "file") {
                         //alert(data[index].name+"是文件");
                         var txt = "<h3><a href='{0}'>{1}</a></h3>";
@@ -49,6 +61,7 @@
                         $("#dir").append(txt)
 
                     }
+
                 }
             });
         }
@@ -57,6 +70,7 @@
     <input type=button value=后退 onclick="window.history.go(-1)">  
     <input type=button value=主页 onclick="location.href='/'">  
     <input type=button value=前进 onclick="window.history.go(1)">  
+    <h2 id="current"></h2>
     <h1>目录</h1>
     <div id="dir"></div>
     <h1>文件</h1>
