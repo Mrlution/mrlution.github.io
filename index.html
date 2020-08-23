@@ -8,10 +8,13 @@
     <script>
 
 
-        function GetQueryString(name) {
-            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-            var r = window.location.search.substr(1).match(reg);
-            if (r != null) return decodeURI(r[2]);
+        getQueryString(name) {
+            let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            if (window.location.hash.indexOf("?") < 0) {
+                return null;
+            }
+            let r = window.location.hash.split("?")[1].match(reg);
+            if (r != null) return decodeURIComponent(r[2]);
             return null;
         }
         String.format = function () {
@@ -41,7 +44,7 @@
                     }
                     else{
                         //alert(data[index].name+"是目录");
-                        var txt="<h3><a href='/path={0}'>{1}</a></h3>";
+                        var txt="<h3><a href='/#path={0}'>{1}</a></h3>";
                         txt=String.format(txt,data[index].url,data[index].name)
                         $("#dir").append(txt)
 
