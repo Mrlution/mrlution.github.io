@@ -10,10 +10,23 @@
         </description>
         <generator>Thinker v0.1.0</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon Sep 28 23:53:01 2020</lastBuildDate>
+        <lastBuildDate>Thu Oct  1 16:00:56 2020</lastBuildDate>
         <ttl>1</ttl>
         <category>大学通知</category>
         
+        <item>
+            <title>
+                <![CDATA[ 电子科学与工程学院2021年接收优秀应届本科毕业生免试攻读研究生工作安排补充通知 ]]>
+            </title>
+            <description>
+                <![CDATA[ <img src="http://www.ese.uestc.edu.cn/index_files/newlogo1.png">
+电子科学与工程学院2021年接收优秀应届本科毕业生免试攻读研究生工作安排补充通知2020-09-30  ]]>
+            </description>
+            <pubDate>2020-09-30</pubDate>
+            <guid isPermaLink="false">http://www.ese.uestc.edu.cn/info/5085/12249.htm</guid>
+            <link>http://www.ese.uestc.edu.cn/info/5085/12249.htm</link>
+        </item>
+
         <item>
             <title>
                 <![CDATA[ 【师资工作】2020年下半年专业技术职务初聘工作的通知 ]]>
@@ -116,19 +129,6 @@
             <pubDate>2020-09-09</pubDate>
             <guid isPermaLink="false">http://www.ese.uestc.edu.cn/info/1063/12082.htm</guid>
             <link>http://www.ese.uestc.edu.cn/info/1063/12082.htm</link>
-        </item>
-
-        <item>
-            <title>
-                <![CDATA[ 2020-2021-1学期电子科学与工程学院关于博士研究生提交学位论文答辩申请的通知 ]]>
-            </title>
-            <description>
-                <![CDATA[ <img src="http://www.ese.uestc.edu.cn/index_files/newlogo1.png">
-2020-2021-1学期电子科学与工程学院关于博士研究生提交学位论文答辩申请的通知2020-09-09  ]]>
-            </description>
-            <pubDate>2020-09-09</pubDate>
-            <guid isPermaLink="false">http://www.ese.uestc.edu.cn/info/5085/12062.htm</guid>
-            <link>http://www.ese.uestc.edu.cn/info/5085/12062.htm</link>
         </item>
 
     </channel>
