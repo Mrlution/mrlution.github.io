@@ -10,7 +10,7 @@
         </description>
         <generator>Thinker v0.1.0</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu Oct  1 21:20:23 2020</lastBuildDate>
+        <lastBuildDate>Thu Oct  1 21:31:22 2020</lastBuildDate>
         <ttl>1</ttl>
         <category>大学通知</category>
         
@@ -301,6 +301,21 @@
 
         <item>
             <title>
+                <![CDATA[ 致全体研究生同学的安全提示 ]]>
+            </title>
+            <description>
+                <![CDATA[ <img src="https://gr.uestc.edu.cn/static/image/logo.png">
+致全体研究生同学的安全提示
+2020年09月22日
+ ]]>
+            </description>
+            <pubDate>2020年09月22日</pubDate>
+            <guid isPermaLink="false">https://gr.uestc.edu.cn/tongzhi/122/9173</guid>
+            <link>https://gr.uestc.edu.cn/tongzhi/122/9173</link>
+        </item>
+
+        <item>
+            <title>
                 <![CDATA[ 信息与通信工程学院《射频电路理论与应用》（2班） 停课通知 ]]>
             </title>
             <description>
@@ -387,21 +402,6 @@
             <pubDate>2020年09月22日</pubDate>
             <guid isPermaLink="false">https://gr.uestc.edu.cn/jiaoxue/75/9162</guid>
             <link>https://gr.uestc.edu.cn/jiaoxue/75/9162</link>
-        </item>
-
-        <item>
-            <title>
-                <![CDATA[ 致全体研究生同学的安全提示 ]]>
-            </title>
-            <description>
-                <![CDATA[ <img src="https://gr.uestc.edu.cn/static/image/logo.png">
-致全体研究生同学的安全提示
-2020年09月22日
- ]]>
-            </description>
-            <pubDate>2020年09月22日</pubDate>
-            <guid isPermaLink="false">https://gr.uestc.edu.cn/tongzhi/122/9173</guid>
-            <link>https://gr.uestc.edu.cn/tongzhi/122/9173</link>
         </item>
 
         <item>
@@ -2326,21 +2326,6 @@
 
         <item>
             <title>
-                <![CDATA[ 研究生学籍信息查询 ]]>
-            </title>
-            <description>
-                <![CDATA[ <img src="https://gr.uestc.edu.cn/static/image/logo.png">
-研究生学籍信息查询
-2019年08月28日
- ]]>
-            </description>
-            <pubDate>2019年08月28日</pubDate>
-            <guid isPermaLink="false">https://gr.uestc.edu.cn/xuesheng/93/8082</guid>
-            <link>https://gr.uestc.edu.cn/xuesheng/93/8082</link>
-        </item>
-
-        <item>
-            <title>
                 <![CDATA[ 义务兵役学费补偿和贷款代偿办理流程 ]]>
             </title>
             <description>
@@ -2442,6 +2427,21 @@
             <pubDate>2019年08月28日</pubDate>
             <guid isPermaLink="false">https://gr.uestc.edu.cn/xuesheng/92/8083</guid>
             <link>https://gr.uestc.edu.cn/xuesheng/92/8083</link>
+        </item>
+
+        <item>
+            <title>
+                <![CDATA[ 研究生学籍信息查询 ]]>
+            </title>
+            <description>
+                <![CDATA[ <img src="https://gr.uestc.edu.cn/static/image/logo.png">
+研究生学籍信息查询
+2019年08月28日
+ ]]>
+            </description>
+            <pubDate>2019年08月28日</pubDate>
+            <guid isPermaLink="false">https://gr.uestc.edu.cn/xuesheng/93/8082</guid>
+            <link>https://gr.uestc.edu.cn/xuesheng/93/8082</link>
         </item>
 
         <item>
