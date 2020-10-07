@@ -10,7 +10,7 @@
         </description>
         <generator>Thinker v0.1.0</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed Oct  7 12:38:01 2020</lastBuildDate>
+        <lastBuildDate>Wed Oct  7 12:49:01 2020</lastBuildDate>
         <ttl>1</ttl>
         <category>大学通知</category>
         
@@ -556,21 +556,6 @@
 
         <item>
             <title>
-                <![CDATA[ 2020年度中国电子学会优秀博士学位论文评选的通知 ]]>
-            </title>
-            <description>
-                <![CDATA[ <img src="https://gr.uestc.edu.cn/static/image/logo.png">
-2020年度中国电子学会优秀博士学位论文评选的通知
-2020年08月28日
- ]]>
-            </description>
-            <pubDate>2020年08月28日</pubDate>
-            <guid isPermaLink="false">https://gr.uestc.edu.cn/tongzhi/129/9066</guid>
-            <link>https://gr.uestc.edu.cn/tongzhi/129/9066</link>
-        </item>
-
-        <item>
-            <title>
                 <![CDATA[ 关于聘任2020-2021学年第一学期研究生助教的通知 ]]>
             </title>
             <description>
@@ -597,6 +582,21 @@
             <pubDate>2020年08月28日</pubDate>
             <guid isPermaLink="false">https://gr.uestc.edu.cn/tongzhi/122/9064</guid>
             <link>https://gr.uestc.edu.cn/tongzhi/122/9064</link>
+        </item>
+
+        <item>
+            <title>
+                <![CDATA[ 2020年度中国电子学会优秀博士学位论文评选的通知 ]]>
+            </title>
+            <description>
+                <![CDATA[ <img src="https://gr.uestc.edu.cn/static/image/logo.png">
+2020年度中国电子学会优秀博士学位论文评选的通知
+2020年08月28日
+ ]]>
+            </description>
+            <pubDate>2020年08月28日</pubDate>
+            <guid isPermaLink="false">https://gr.uestc.edu.cn/tongzhi/129/9066</guid>
+            <link>https://gr.uestc.edu.cn/tongzhi/129/9066</link>
         </item>
 
         <item>
@@ -1036,6 +1036,21 @@
 
         <item>
             <title>
+                <![CDATA[ 关于开展2020-2021-1学期研究生任课教师和教材选用自查的通知 ]]>
+            </title>
+            <description>
+                <![CDATA[ <img src="https://gr.uestc.edu.cn/static/image/logo.png">
+关于开展2020-2021-1学期研究生任课教师和教材选用自查的通知
+2020年06月29日
+ ]]>
+            </description>
+            <pubDate>2020年06月29日</pubDate>
+            <guid isPermaLink="false">https://gr.uestc.edu.cn/tongzhi/119/9004</guid>
+            <link>https://gr.uestc.edu.cn/tongzhi/119/9004</link>
+        </item>
+
+        <item>
+            <title>
                 <![CDATA[ 关于开展2020年校优秀博士、硕士学位论文评选的通知 ]]>
             </title>
             <description>
@@ -1062,21 +1077,6 @@
             <pubDate>2020年06月29日</pubDate>
             <guid isPermaLink="false">https://gr.uestc.edu.cn/tongzhi/129/9005</guid>
             <link>https://gr.uestc.edu.cn/tongzhi/129/9005</link>
-        </item>
-
-        <item>
-            <title>
-                <![CDATA[ 关于开展2020-2021-1学期研究生任课教师和教材选用自查的通知 ]]>
-            </title>
-            <description>
-                <![CDATA[ <img src="https://gr.uestc.edu.cn/static/image/logo.png">
-关于开展2020-2021-1学期研究生任课教师和教材选用自查的通知
-2020年06月29日
- ]]>
-            </description>
-            <pubDate>2020年06月29日</pubDate>
-            <guid isPermaLink="false">https://gr.uestc.edu.cn/tongzhi/119/9004</guid>
-            <link>https://gr.uestc.edu.cn/tongzhi/119/9004</link>
         </item>
 
         <item>
@@ -2326,21 +2326,6 @@
 
         <item>
             <title>
-                <![CDATA[ 研究生学籍信息查询 ]]>
-            </title>
-            <description>
-                <![CDATA[ <img src="https://gr.uestc.edu.cn/static/image/logo.png">
-研究生学籍信息查询
-2019年08月28日
- ]]>
-            </description>
-            <pubDate>2019年08月28日</pubDate>
-            <guid isPermaLink="false">https://gr.uestc.edu.cn/xuesheng/93/8082</guid>
-            <link>https://gr.uestc.edu.cn/xuesheng/93/8082</link>
-        </item>
-
-        <item>
-            <title>
                 <![CDATA[ 义务兵役学费补偿和贷款代偿办理流程 ]]>
             </title>
             <description>
@@ -2397,6 +2382,21 @@
             <pubDate>2019年08月28日</pubDate>
             <guid isPermaLink="false">https://gr.uestc.edu.cn/xuesheng/92/8087</guid>
             <link>https://gr.uestc.edu.cn/xuesheng/92/8087</link>
+        </item>
+
+        <item>
+            <title>
+                <![CDATA[ 研究生学籍信息查询 ]]>
+            </title>
+            <description>
+                <![CDATA[ <img src="https://gr.uestc.edu.cn/static/image/logo.png">
+研究生学籍信息查询
+2019年08月28日
+ ]]>
+            </description>
+            <pubDate>2019年08月28日</pubDate>
+            <guid isPermaLink="false">https://gr.uestc.edu.cn/xuesheng/93/8082</guid>
+            <link>https://gr.uestc.edu.cn/xuesheng/93/8082</link>
         </item>
 
         <item>
@@ -2461,21 +2461,6 @@
 
         <item>
             <title>
-                <![CDATA[ 关于拟聘任2019-2020学年研究生助理辅导员信息的公示 ]]>
-            </title>
-            <description>
-                <![CDATA[ <img src="https://gr.uestc.edu.cn/static/image/logo.png">
-关于拟聘任2019-2020学年研究生助理辅导员信息的公示
-2019年07月09日
- ]]>
-            </description>
-            <pubDate>2019年07月09日</pubDate>
-            <guid isPermaLink="false">https://gr.uestc.edu.cn/tongzhi/121/8042</guid>
-            <link>https://gr.uestc.edu.cn/tongzhi/121/8042</link>
-        </item>
-
-        <item>
-            <title>
                 <![CDATA[ 关于聘任2019-2020学年第一学期研究生助教的通知    ]]>
             </title>
             <description>
@@ -2487,6 +2472,21 @@
             <pubDate>2019年07月09日</pubDate>
             <guid isPermaLink="false">https://gr.uestc.edu.cn/tongzhi/122/8041</guid>
             <link>https://gr.uestc.edu.cn/tongzhi/122/8041</link>
+        </item>
+
+        <item>
+            <title>
+                <![CDATA[ 关于拟聘任2019-2020学年研究生助理辅导员信息的公示 ]]>
+            </title>
+            <description>
+                <![CDATA[ <img src="https://gr.uestc.edu.cn/static/image/logo.png">
+关于拟聘任2019-2020学年研究生助理辅导员信息的公示
+2019年07月09日
+ ]]>
+            </description>
+            <pubDate>2019年07月09日</pubDate>
+            <guid isPermaLink="false">https://gr.uestc.edu.cn/tongzhi/121/8042</guid>
+            <link>https://gr.uestc.edu.cn/tongzhi/121/8042</link>
         </item>
 
         <item>
